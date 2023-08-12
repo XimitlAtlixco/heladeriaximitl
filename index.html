@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladeria Ximitl</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div  id="todo_contenido">
+        <div class="contenedor-principal">
+            <header class="header" onmouseleave="">
+                <div class="logo"><img src="imagenes/logotipo ximitl original.png"></div>
+                <input type="checkbox" id="toggle">
+                <label for="toggle"><img class="Menu" src="imagenes/menu (1).png" alt="menu"></label>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">helados</a></li>
+                        <li><a href="#">Ubicaciones</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <div style="width:100%;display: flex;justify-content: center; gap: 15px; flex-direction: column;height: auto;">
+                <div class="Div-carrusel">
+                    <p id="carrusel2">
+                        <div class="content-all">
+                            <div class="content-carrusel">
+                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chileeeee.jpg"></figure>
+                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chipotle.jpg"></figure>
+                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/sorbete.jpg"></figure>
+                            </div><!--cerrar div content-carrusel-->
+                        </div><!--cerrar div content all-->
+                    </p>
+                </div><!--cerrar div carrusel-->
+
+                <div id="div-datosC">
+
+                    <div style="height: 7%;">
+                        <h1 style="text-align: center;font-family: 'Arimo', sans-serif; font-size: 70px; color: #4b1206;">¿Sabias que?</h1>
+                    </div>
+            
+                     <div class="slider-wrapper">
+                        <div id="slider">
+                            <ul id="slider-ul">
+                                <li class="classListSlider" id="listImg1"><img src="imagenes/1.jpg" alt="" class="listas-slider" ></li>
+                                <li class="classListSlider" id="listImg2"><img src="imagenes/2.jpeg" alt="" class="listas-slider" ></li>
+                            </ul>
+
+                        </div>
+                    </div> 
+                    <div style="height: 7%;">
+                        <h1 style="text-align: center;font-family: 'Arimo', sans-serif; font-size: 70px; color:#4b1206;">Sabores unicos y deliciosos</h1>
+                    </div>
+
+                    <div class="video">
+                        <iframe height="250px" width="450px" src="https://www.youtube.com/embed/RrS_5e9z6iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe height="250px" width="450px"  src="https://www.youtube.com/embed/uEp4m0635FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            
+                </div><!--cerrar datos div-datosC-->
+            </div><!--cerrar div sin nombre-->
+        </div><!--cerrar contenedor principal-->
+        <footer>
+            <p style="margin: 10px;">Redes sociales:</p>
+            <a href=""><img src="imagenes/Facebook.png" style="border-radius: 20px;" width="60px"></a>
+            <a href=""><img src="imagenes/Instagram.png" style="border-radius: 20px;" width="60px"></a>
+        </footer>
+    </div><!--cerrar todo_contenido-->
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script src="js/animaciones.js"></script>
+    
+    
+</body>
+</html>
