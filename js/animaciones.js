@@ -8,7 +8,7 @@ function cargar(){
      console.log(listItem[0].clientWidth)
 }
 document.addEventListener("DOMContentLoaded",cargar())
-
+ 
 
 function regresar(){
     list.style.transform='translateX(0px)'

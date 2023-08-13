@@ -112,7 +112,7 @@ opacity: 0.3;
 .header:hover{
     animation: transparencia 1s 1;
     opacity: 1;
-    background-color: rgb(0, 0, 0);
+    background-color: #f7dea8;
 
 }
 @keyframes transparencia {
@@ -142,29 +142,6 @@ opacity: 0.3;
     animation:movimiento 1s infinite;
     border-bottom: 4px solid #F24405;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .logo img{
     width: 130px;
     height: 105px;
@@ -178,11 +155,11 @@ opacity: 0.3;
     border: 4px inset rgb(75, 70, 70);
     margin: 2%;
     border-radius: 15px;
-    background-color: black;
+    background:#f7dea8;
 }
 .header .navigation ul li a{
     font-size: 18px;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     padding: 20px;
     display: block;
@@ -223,7 +200,6 @@ opacity: 0.3;
     cursor: pointer;
 }
 .contenedor-principal {
-    height: 250%;
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
@@ -254,7 +230,7 @@ opacity: 0.3;
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #000000;
+        background-color:#f7dea8;
         display: none;
     }
     .header .navigation ul li{
@@ -270,7 +246,7 @@ opacity: 0.3;
         left: 0;
     }
     .header .navigation ul li ul li{
-        background-color: #985863;
+        background-color: #f7dea8;
     }
     .header .navigation ul li ul li ul{
         position: relative;
@@ -309,6 +285,9 @@ opacity: 0.3;
 
 body{
     background-color: pink;
+}
+.header{
+    background: #f7dea8;
 }
 
 }
@@ -375,7 +354,7 @@ button{
 }
 @media screen and (max-width:1000px){
     .slider-wrapper{
-        height: 245px;
+        height: 250px;
     }
 
 
@@ -396,7 +375,7 @@ max-width: 100%;
     #slider{
         box-shadow: 5px 5px 10px 2px,-7px -6px 10px 2px;
         margin: 0 auto;
-        width: 100%;
+        width: 140%;
         height: 100%;
         border-radius: 10px;
         overflow: hidden;
@@ -441,8 +420,61 @@ transition: 3s;
 
 
 
+.datosCMouseOver{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0%;
+
+}
     
 
+.classListSlider{
+    position: relative;
+}
 
 
-  
+.datosCMouseOver p{
+    color: white;
+    position: absolute;
+    border: 2px solid black;
+    top: 25%;
+    text-justify: center;
+    font-size: 100%;
+    text-align: justify;
+    line-height: 160%;
+}
+
+@media screen  and (max-width: 1000px){
+    .datosCMouseOver p{
+    color: white;
+    position: absolute;
+    border: 2px solid black;
+    top: 25%;
+    text-justify: center;
+    font-size: 120%;
+    text-align: justify;
+    line-height: 100%;
+}
+
+.datosCMouseOver h2{
+    position: absolute;
+    top: 4%;
+    color: white;
+    font-size: 120%;
+}
+.contenedor-principal {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+}
+.datosCMouseOver h2{
+    position: absolute;
+    top: 8%;
+    color: white;
+}
