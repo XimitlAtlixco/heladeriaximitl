@@ -14,12 +14,19 @@ body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color:#F26022;
+    background:linear-gradient(200deg,#E691BC,#E6DC92);
+
+
 }
+
 #todo_contenido{
     margin: 0;
     padding: 0;
     width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+
 }
 /*-----------Header----------*/
 .header{
@@ -112,7 +119,7 @@ opacity: 0.3;
 .header:hover{
     animation: transparencia 1s 1;
     opacity: 1;
-    background-color: #f7dea8;
+    background:pink;
 
 }
 @keyframes transparencia {
@@ -152,7 +159,7 @@ opacity: 0.3;
 .header .navigation ul li{
     float: left;
     position: relative;
-    border: 4px inset rgb(75, 70, 70);
+    border: 4px inset;
     margin: 2%;
     border-radius: 15px;
     background:#f7dea8;
@@ -200,9 +207,9 @@ opacity: 0.3;
     cursor: pointer;
 }
 .contenedor-principal {
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     overflow: hidden;
 }
 
@@ -278,7 +285,7 @@ opacity: 0.3;
 }
 
 .Div-carrusel{
-    margin-top: 140px;
+    margin-top: 50px;
     width: 100%;
     margin-bottom: 50px;
 }
@@ -287,7 +294,7 @@ body{
     background-color: pink;
 }
 .header{
-    background: #f7dea8;
+    background:#E0435C;
 }
 
 }
@@ -301,7 +308,7 @@ body{
 
 
 .Div-carrusel{
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 
@@ -347,7 +354,7 @@ button{
     
  .slider-wrapper{
 
-    height:400px;
+    height:350px;
     padding: 10px;
     width: 100%;
     
@@ -477,4 +484,10 @@ transition: 3s;
     position: absolute;
     top: 8%;
     color: white;
+}
+
+#contenedor-contenedoresPrincipales{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
 }

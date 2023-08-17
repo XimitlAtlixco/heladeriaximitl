@@ -12,34 +12,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header" onmouseleave="">
+        <div class="logo"><img src="imagenes/logotipo ximitl original.png"></div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><img class="Menu" src="imagenes/menu (1).png" alt="menu"></label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">helados</a></li>
+                <li><a href="#">Ubicaciones</a></li>
+                
+            </ul>
+        </nav>
+    </header>
     <div  id="todo_contenido">
+        <div class="Div-carrusel">
+            <p id="carrusel2">
+                <div class="content-all">
+                    <div class="content-carrusel">
+                        <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chileeeee.jpg"></figure>
+                        <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chipotle.jpg"></figure>
+                        <figure><img loading="lazy" class="imgCarrusel" src="imagenes/sorbete.jpg"></figure>
+                    </div><!--cerrar div content-carrusel-->
+                </div><!--cerrar div content all-->
+            </p>
+        </div><!--cerrar div carrusel-->
+        <div id="contenedor-contenedoresPrincipales">
         <div class="contenedor-principal">
-            <header class="header" onmouseleave="">
-                <div class="logo"><img src="imagenes/logotipo ximitl original.png"></div>
-                <input type="checkbox" id="toggle">
-                <label for="toggle"><img class="Menu" src="imagenes/menu (1).png" alt="menu"></label>
-                <nav class="navigation">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">helados</a></li>
-                        <li><a href="#">Ubicaciones</a></li>
-                        
-                    </ul>
-                </nav>
-            </header>
+            
 
             <div style="width:100%;display: flex;justify-content: center; gap: 15px; flex-direction: column;height: auto;">
-                <div class="Div-carrusel">
-                    <p id="carrusel2">
-                        <div class="content-all">
-                            <div class="content-carrusel">
-                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chileeeee.jpg"></figure>
-                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/chipotle.jpg"></figure>
-                                <figure><img loading="lazy" class="imgCarrusel" src="imagenes/sorbete.jpg"></figure>
-                            </div><!--cerrar div content-carrusel-->
-                        </div><!--cerrar div content all-->
-                    </p>
-                </div><!--cerrar div carrusel-->
 
                 <div id="div-datosC">
 
@@ -94,14 +96,12 @@
                 </div><!--cerrar datos div-datosC-->
             </div><!--cerrar div sin nombre-->
         </div><!--cerrar contenedor principal-->
-        <footer>
-            <p style="margin: 10px;">Redes sociales:</p>
-            <a href=""><img src="imagenes/Facebook.png" style="border-radius: 20px;" width="60px"></a>
-            <a href=""><img src="imagenes/Instagram.png" style="border-radius: 20px;" width="60px"></a>
-        </footer>
+        <div class="contenedor-principal">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia perferendis obcaecati minima maiores aut cupiditate at blanditiis sed provident facilis, eaque, architecto, saepe cum. Laudantium praesentium cum dicta. Voluptate, illum.</p>
+        </div><!-- cerrar contenedor principal-->
+        </div><!--contenedores-principales-->
     </div><!--cerrar todo_contenido-->
-    <script src="node_modules/animejs/lib/anime.min.js"></script>
-    <script src="js/animaciones.js"></script>
+    <script src="js/animaciones.js" type="module"></script>
     
     
 </body>
