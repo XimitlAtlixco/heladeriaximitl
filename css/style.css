@@ -491,3 +491,16 @@ transition: 3s;
     grid-template-columns: auto auto;
     gap: 10%;
 }
+#abuelo{
+    width: 75%;
+    height: auto;
+}
+#historia{
+    font-family: 'Arimo', 'sans-serif';
+    width: 85%;
+    height: auto;
+    text-align: justify;
+    justify-content: center;
+    color: #4b1206;
+    font-size: 120%;
+}
