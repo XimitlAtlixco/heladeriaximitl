@@ -572,3 +572,15 @@ height: 100%;
 }
 
 }
+
+
+#redes{
+    position: fixed;
+    bottom: 0ch;
+}
+#mapa{
+   position: relative;
+   top: 6em;
+
+
+}
