@@ -9,6 +9,7 @@ var list_menu1=document.getElementsById('menu-list1');
 var list_menu2=document.getElementsById('menu-list2');
 
 
+
 function cargar(){
      list=document.getElementById("slider-ul")
      listItem=document.getElementsByClassName("classListSlider");
