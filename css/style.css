@@ -346,7 +346,10 @@ button{
 }
 @media screen and (max-width:1000px){
     .slider-wrapper{
-        height: 250px;
+        height: auto;
+        min-height: 385px;
+        max-width: 360px;
+
     }
 
 
@@ -418,9 +421,12 @@ transition: 3s;
     opacity: 0.7;
     position: absolute;
     top: 0%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
 
 }
-    
+
 
 .classListSlider{
     position: relative;
@@ -519,10 +525,11 @@ height: 560px;
 @media screen  and (min-width: 279px) and (max-width: 1000px){
 #contenedor-contenedoresPrincipales{
     display: grid;
-    grid-template-rows: 1250px auto;
+    grid-template-rows: auto auto;
     grid-template-columns: auto;
     gap: 1%;
-    height: 3291px;
+    height: auto;
+    min-height: 3196px ;
 }
 }
 
@@ -540,8 +547,8 @@ height: 560px;
     #contenedor-historia{
         height: 100%;
         display: grid;
-        grid-template-rows: 25% 8% 65%;
-        gap: 1%;
+        grid-template-rows:auto auto auto;
+        gap: 2%;
 
 
     }
@@ -569,6 +576,7 @@ height: 100%;
 @media screen and (min-width: 279px) and (max-width: 1000px) {
 #historia{
     padding: 4%;
+    height: max-content;
 }
 
 }
@@ -584,3 +592,15 @@ height: 100%;
 
 
 }
+
+
+.datosCMouseOver p{
+    line-height: 110%;
+    font-size: 120%;
+}
+
+.datosCMouseOver h2{
+    font-size: 130%;
+    height: 30%;
+}
+

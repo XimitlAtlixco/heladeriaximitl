@@ -5,8 +5,7 @@ var listItem
 var x=0
 var fondo
 var acumuladoMargin=0
-var list_menu1=document.getElementsById('menu-list1');
-var list_menu2=document.getElementsById('menu-list2');
+
 
 
 
@@ -25,6 +24,7 @@ document.addEventListener("DOMContentLoaded",cargar())
 function regresar(){
     list.style.transform='translateX(0px)'
     x=0
+    acumuladoMargin=0
 }
 
 setInterval(()=>{
@@ -33,6 +33,7 @@ setInterval(()=>{
     
         list.style.transform='translateX(-'+acumuladoMargin+'px)'
         x++
+        console.log(acumuladoMargin);
     }
     else{
         list.style.transform='translateX(-'+acumuladoMargin+'px)'
