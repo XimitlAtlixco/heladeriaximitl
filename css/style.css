@@ -527,9 +527,8 @@ height: 560px;
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto;
-    gap: 1%;
+    gap: 2%;
     height: auto;
-    min-height: 3196px ;
 }
 }
 
@@ -547,7 +546,7 @@ height: 560px;
     #contenedor-historia{
         height: 100%;
         display: grid;
-        grid-template-rows:auto auto auto;
+        grid-template-rows:auto auto auto auto;
         gap: 2%;
 
 
@@ -604,3 +603,16 @@ height: 100%;
     height: 30%;
 }
 
+@media screen and (min-width: 279px) and (max-width: 1000px) {
+#slider ul li img{
+
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
+}
+
+@media screen and (min-width: 279px) and (max-width: 1000px) {
+#slider{
+    min-height: 440px;
+}
+}
